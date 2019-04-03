@@ -1,0 +1,131 @@
+body {
+  background-color: #efefef;
+}
+
+.container {
+  background-color: #fff;
+  width: 920px;
+  margin:0 auto;
+}
+
+.container::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.logo {
+  text-align: center;
+  color: #333;
+  padding: 30px;
+  margin: 0;
+}
+
+.header-navigation {
+  background-color: #333;
+  width: 920px;
+  margin:0 auto;
+  padding: 10px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+ul {
+  margin: 0;
+}
+
+.header-navigation li {
+  float: left;
+  list-style-type: none;
+  padding-right: 30px;
+  font-size: 5px;
+}
+
+.header-navigation li:last-child {
+  padding: 0;
+}
+
+.header-navigation li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.left-contents {
+  width: 650px;
+  padding-top: 5px;
+  float: left;
+}
+
+.right-contents {
+  width: 225px;
+  padding: 5px 0 0 45px;
+  float: right;
+}
+.card-contents {
+  padding-top: 20px;
+}
+
+.card-contents::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.contents-image {
+  float: left;
+  padding: 10px 15px 0 30px;
+  width: 150px;
+  height: 150px;
+}
+
+.date {
+  font-size: 5px;
+}
+
+.contents {
+  font-size: 10px;
+}
+
+h4 {
+  color: #69c;
+}
+
+.latest-article {
+  color: #333;
+}
+
+.contents-image2 {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.date2 {
+  font-size: 2.5px;
+}
+
+.sample-blog-title {
+  font-size: 2.5px;
+  color: #69c;
+}
+
+.card-contents2 {
+  padding-top: 5px
+}
+
+.card-contents2::after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.copyright {
+  text-align: center;
+  font-size: 5px;
+  margin: 0;
+  padding: 75px 0 50px 0;
+}
